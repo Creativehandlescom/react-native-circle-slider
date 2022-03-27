@@ -123,14 +123,14 @@ const CircleSlider: FC<Props> = ({
 					r={bR}
 					cx={bR}
 					cy={bR}
-					fill={meterColor}
+					fill={'transparent'}
 					{...panResponder.panHandlers}
 				/>
 				<Text
 					x={bR}
 					y={bR + textSize / 2}
 					fontSize={textSize}
-					fill={textColor}
+					fill={'transparent'}
 					textAnchor="middle"
 				>
 					{onValueChange(angle) + ""}
